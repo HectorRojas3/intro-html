@@ -4,79 +4,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Hoja de Vida Héctor Rojas</title>
 </head>
 
 <body>
-    <h1>Información General</h1>
-    <br>
-    <h4>Nombre</h4>
-    <p>Héctor David Rojas Rodríguez</p>
-    <br>
-    <h4>Mail</h4>
-    <p>hdrojas777@gmail.com</p>
-    <br>
-    <h4>Teléfono</h4>
-    <p>+504 89027851</p>
-    <br>
-    <h4>Residencia</h4>
-    <p>El Progreso, Yoro. Honduras, Centroámerica</p>
-    <br>
-    <h4><a href="https://github.com/HectorRojas3?tab=repositories">GitHub</a></h4>
-    <br>
-    <h4><a href="https://www.linkedin.com/in/rojas-hector-web-dev">LinkeIn</a></h4>
-    <br>
-    <h2>Experiencia</h2>
-    <br>
-    <ul>
-        <li>Hospital El Progreso - Auxiliar de Odontología</li>
-        <li>ProTalento - Web Developer Trainee</li>
-        <li>AdaSchool - Senior Web Developer</li>
-    </ul>
-    <br>
-    <h3>Hábilidades Técnicas y Tecnologías</h3>
-    <br>
-        <table>
-            <tr>
-                <td>MS Office</td>
-            </tr>
-            <tr>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-            </tr>
-        </table>
-    <br>
-    <h3>Intereses</h3>
-        <table>
-            <tr>
-            <td>Videojuegos</td>
-        </tr>
-        <tr>
-            <td>Música</td>
-        </tr>
-        <tr>
-            <td>Desarrollo Web</td>
-        </tr>
-        <tr>
-            <td>Aplicaciones Móviles</td>
-        </tr>
-        <tr>
-            <td>Metodoloías ágiles</td>
-    </tr>
-    </table>
-    <br>
-    <label for="email">Correo eléctronico</label>
-    <input type="email" name="email">
-    <br>
-    <textarea name="mensaje" id="mensaje" cols="33.5" rows="5">Deja tu mensaje</textarea>
-    <br>
-    <button type="button">Contactar</button>
-
+    <div class="container">
+        <div class="ladoIzquierdo">
+            <div class="infoPerfil">
+                <div class="imgPerfil">
+                    <img src="/img/FB_IMG_15674438919332949.jpg"">
+                    </div>
+                    <h2>Hector Rojas<br><span>Desarrollador Web</span></h2>
+                </div>
+                <div class=" infoContacto">
+                    <h3 class="titulo">Información de Contacto</h3>
+                    <ul>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">hdrojas777@gamil.com</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">+504 8902751</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto">El Progreso, Yoro. Honduras</span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto"><a
+                                    href="https://linkedin.com/in/rojas-hector-web-dev">LinkedIn</a></span>
+                        </li>
+                        <li>
+                            <span class="icono"></span>
+                            <span class="texto"><a href="https://github.com/HectorRojas3">GitHub</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infoContacto educacion">
+                    <h3 class="titulo">Educación</h3>
+                    <ul>
+                        <li>
+                            <h5>2006 - 2011</h5>
+                            <h4>Secundaria</h4>
+                            <h4>Instituto Oficial Eduardo Hernández Chevéz</h4>
+                        </li>
+                        <li>
+                            <h5>1999 - 2005</h5>
+                            <h4>Primaria</h4>
+                            <h4>Escuela General Francisco Morazán</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infoContacto idiomas">
+                    <h3 class="titulo">Idiomas</h3>
+                    <ul>
+                        <li>
+                            <span class="texto">Español</span>
+                        </li>
+                        <li>
+                            <span class="texto">Ingles</span>
+                        </li>
+                        <li>
+                            <span class="texto">Frances</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ladoDerecho">
+                <div class="infoPersonal">
+                    <h2 class="titulo2">Información Personal</h2>
+                    <p>Recientemente inicié mi formación en desarrollo web FullStack gracias al programa que ofrece
+                        ProTalento y ADA School</p>
+                </div>
+                <div class="infoPersonal">
+                    <h2 class="titulo2">Experiencia Laboral</h2>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2016 - Presente</h5>
+                            <h5>Hospital Público El Progreso</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Auxiliar en Odontología</h4>
+                            <p>Me encargo de realizar la preclínica a los pacientes, circular y esterilizar el
+                                instrumental
+                                para realizar los tratamientos,
+                                llevo el control de la agenda de atenciones diarias y citas programadas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2024 - 2025</h5>
+                            <h5>ProTalento</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Web Developer Trainee</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet purus orci. Sed at
+                                vestibulum purus. Etiam ut elit
+                                auctor, sodales arcu ut, congue tortor. Suspendisse potenti. Pellentesque velit lectus,
+                                pharetra in dolor sed, aliquet
+                                mattis dui. Vestibulum porttitor sit amet tortor at facilisis. Aliquam porttitor odio
+                                eget
+                                neque faucibus tincidunt. Sed
+                                nec placerat velit. Phasellus eget felis sit amet mauris viverra tempor et sit amet
+                                nibh.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tiempoEmpresa">
+                            <h5>2025 - 2025</h5>
+                            <h5>ProTalento</h5>
+                        </div>
+                        <div class="texto">
+                            <h4>Junior Web Developer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet purus orci. Sed at
+                                vestibulum purus. Etiam ut elit
+                                auctor, sodales arcu ut, congue tortor. Suspendisse potenti. Pellentesque velit lectus,
+                                pharetra in dolor sed, aliquet
+                                mattis dui. Vestibulum porttitor sit amet tortor at facilisis. Aliquam porttitor odio
+                                eget
+                                neque faucibus tincidunt. Sed
+                                nec placerat velit. Phasellus eget felis sit amet mauris viverra tempor et sit amet
+                                nibh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h2 class="titulo2">Habilidades Profesionales</h2>
+                    <div class="box">
+                        <h4>MS Office</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>HTML</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>CSS</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="box">
+                        <h4>JavaScript</h4>
+                        <div class="porcentaje"></div>
+                    </div>
+                    <div class="contact">
+                        <label for="email">Correo eléctronico</label>
+                        <input type="email" name="email">
+                        <br>
+                        <textarea name="mensaje" id="mensaje" cols="33.5" rows="5">Deja tu mensaje</textarea>
+                        <br>
+                        <button type="button">Contactar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
